@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D41732F2E1B91980064DBBC /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41732E2E1B91980064DBBC /* StateView.swift */; };
+		0D4173312E1B9D620064DBBC /* ExtractedFunctionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173302E1B9D620064DBBC /* ExtractedFunctionsView.swift */; };
+		0D4173332E1BA2EF0064DBBC /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173322E1BA2EF0064DBBC /* ExtractSubView.swift */; };
+		0D4173352E1BA62D0064DBBC /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173342E1BA62D0064DBBC /* BindingView.swift */; };
+		0D4173372E1BADE70064DBBC /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173362E1BADE70064DBBC /* AnimationView.swift */; };
+		0D4173392E1BD9190064DBBC /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173382E1BD9190064DBBC /* TransitionView.swift */; };
+		0D41733B2E1BE6E30064DBBC /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41733A2E1BE6E20064DBBC /* SheetsView.swift */; };
 		0D9111732D7AAEA00019DB50 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9111722D7AAEA00019DB50 /* SwiftUIBasicsApp.swift */; };
 		0D9111772D7AAEA10019DB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9111762D7AAEA10019DB50 /* Assets.xcassets */; };
 		0D91117A2D7AAEA10019DB50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9111792D7AAEA10019DB50 /* Preview Assets.xcassets */; };
@@ -30,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D41732E2E1B91980064DBBC /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		0D4173302E1B9D620064DBBC /* ExtractedFunctionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsView.swift; sourceTree = "<group>"; };
+		0D4173322E1BA2EF0064DBBC /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
+		0D4173342E1BA62D0064DBBC /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		0D4173362E1BADE70064DBBC /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		0D4173382E1BD9190064DBBC /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		0D41733A2E1BE6E20064DBBC /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
 		0D91116F2D7AAEA00019DB50 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9111722D7AAEA00019DB50 /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		0D9111762D7AAEA10019DB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,8 +115,15 @@
 				0D9111BA2D7AF6520019DB50 /* ForEachView.swift */,
 				0DC605F82D9135EC005F63A2 /* SafeAreaView.swift */,
 				0DAFD8752D916AF30033DFFB /* ButtonView.swift */,
+				0D41732E2E1B91980064DBBC /* StateView.swift */,
+				0D4173302E1B9D620064DBBC /* ExtractedFunctionsView.swift */,
+				0D4173322E1BA2EF0064DBBC /* ExtractSubView.swift */,
+				0D4173342E1BA62D0064DBBC /* BindingView.swift */,
+				0D4173362E1BADE70064DBBC /* AnimationView.swift */,
+				0D4173382E1BD9190064DBBC /* TransitionView.swift */,
 				0D9111762D7AAEA10019DB50 /* Assets.xcassets */,
 				0D9111782D7AAEA10019DB50 /* Preview Content */,
+				0D41733A2E1BE6E20064DBBC /* SheetsView.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -185,17 +206,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D41733B2E1BE6E30064DBBC /* SheetsView.swift in Sources */,
 				0D9111AD2D7AC9640019DB50 /* ImageVIew.swift in Sources */,
 				0D9111B72D7AEDC00019DB50 /* SpacerView.swift in Sources */,
 				0D9111B32D7AD1BB0019DB50 /* StackView.swift in Sources */,
+				0D4173312E1B9D620064DBBC /* ExtractedFunctionsView.swift in Sources */,
 				0D9111732D7AAEA00019DB50 /* SwiftUIBasicsApp.swift in Sources */,
+				0D4173392E1BD9190064DBBC /* TransitionView.swift in Sources */,
+				0D41732F2E1B91980064DBBC /* StateView.swift in Sources */,
+				0D4173332E1BA2EF0064DBBC /* ExtractSubView.swift in Sources */,
 				0D9111832D7AAFA10019DB50 /* TextView.swift in Sources */,
 				0DC605F92D9135EC005F63A2 /* SafeAreaView.swift in Sources */,
 				0D9111BD2D7AF8AF0019DB50 /* ScrollViewVC.swift in Sources */,
 				0D9111B52D7AD6B30019DB50 /* PaddingView.swift in Sources */,
 				0DAFD8762D916AF30033DFFB /* ButtonView.swift in Sources */,
+				0D4173352E1BA62D0064DBBC /* BindingView.swift in Sources */,
 				0D9111BB2D7AF6520019DB50 /* ForEachView.swift in Sources */,
 				0D9111AF2D7AD0E30019DB50 /* FrameView.swift in Sources */,
+				0D4173372E1BADE70064DBBC /* AnimationView.swift in Sources */,
 				0D9111872D7AB6170019DB50 /* ColorsView.swift in Sources */,
 				0D9111852D7AB2300019DB50 /* ShapesView.swift in Sources */,
 				0D9111BF2D7B019B0019DB50 /* GridView.swift in Sources */,
