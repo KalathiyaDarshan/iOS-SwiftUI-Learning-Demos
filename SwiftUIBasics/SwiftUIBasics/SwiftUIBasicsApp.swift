@@ -12,7 +12,8 @@ struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
            // TextView()
-            ButtonView()
+        //    ButtonView()
+            AlertView()
         }
     }
 }
