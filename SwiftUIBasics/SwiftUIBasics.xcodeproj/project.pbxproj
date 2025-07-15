@@ -19,6 +19,7 @@
 		0D4173372E1BADE70064DBBC /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173362E1BADE70064DBBC /* AnimationView.swift */; };
 		0D4173392E1BD9190064DBBC /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4173382E1BD9190064DBBC /* TransitionView.swift */; };
 		0D41733B2E1BE6E30064DBBC /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41733A2E1BE6E20064DBBC /* SheetsView.swift */; };
+		0D74972D2E24EED500B84CF8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D74972C2E24EED500B84CF8 /* ViewModel.swift */; };
 		0D837E082E1F7AD7005628BB /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D837E072E1F7AD7005628BB /* ContextMenuView.swift */; };
 		0D837E0A2E1F8159005628BB /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D837E092E1F8159005628BB /* TextFieldView.swift */; };
 		0D837E0C2E1F891C005628BB /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D837E0B2E1F891C005628BB /* TextEditorView.swift */; };
@@ -64,6 +65,7 @@
 		0D4173362E1BADE70064DBBC /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		0D4173382E1BD9190064DBBC /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		0D41733A2E1BE6E20064DBBC /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
+		0D74972C2E24EED500B84CF8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		0D837E072E1F7AD7005628BB /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		0D837E092E1F8159005628BB /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		0D837E0B2E1F891C005628BB /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
@@ -157,8 +159,6 @@
 				0D1B18752E1D1AF00026DF7D /* AlertView.swift */,
 				0D1B18772E1D2DE20026DF7D /* ActionsheetView.swift */,
 				0D41733A2E1BE6E20064DBBC /* SheetsView.swift */,
-				0D9111762D7AAEA10019DB50 /* Assets.xcassets */,
-				0D9111782D7AAEA10019DB50 /* Preview Content */,
 				0D837E072E1F7AD7005628BB /* ContextMenuView.swift */,
 				0D837E092E1F8159005628BB /* TextFieldView.swift */,
 				0D837E0B2E1F891C005628BB /* TextEditorView.swift */,
@@ -169,6 +169,9 @@
 				0D837E152E1FC94E005628BB /* StepperView.swift */,
 				0D837E172E1FD348005628BB /* SliderView.swift */,
 				0D837E1A2E1FDA6D005628BB /* TabviewDemo.swift */,
+				0D9111762D7AAEA10019DB50 /* Assets.xcassets */,
+				0D9111782D7AAEA10019DB50 /* Preview Content */,
+				0D74972C2E24EED500B84CF8 /* ViewModel.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				0D4173352E1BA62D0064DBBC /* BindingView.swift in Sources */,
 				0D837E0A2E1F8159005628BB /* TextFieldView.swift in Sources */,
 				0D9111BB2D7AF6520019DB50 /* ForEachView.swift in Sources */,
+				0D74972D2E24EED500B84CF8 /* ViewModel.swift in Sources */,
 				0D9111AF2D7AD0E30019DB50 /* FrameView.swift in Sources */,
 				0D4173372E1BADE70064DBBC /* AnimationView.swift in Sources */,
 				0D837E0E2E1F966A005628BB /* ToggleView.swift in Sources */,
