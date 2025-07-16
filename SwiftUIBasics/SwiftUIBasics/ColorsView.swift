@@ -12,7 +12,7 @@ struct ColorsView: View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(
                 //Color.primary
-                //Color(#colorLiteral(red: 0, green: 0.3285208941, blue: 0.5748849511, alpha: 1))
+                Color(#colorLiteral(red: 0, green: 0.3285208941, blue: 0.5748849511, alpha: 1))
                 //Color(UIColor.secondarySystemBackground)
                 //Color("CustomColor")
             )

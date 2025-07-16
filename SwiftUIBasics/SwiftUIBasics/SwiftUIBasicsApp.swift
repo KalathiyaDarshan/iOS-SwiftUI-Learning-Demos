@@ -11,9 +11,9 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-           // TextView()
-        //    ButtonView()
-            AlertView()
+            // TextView()
+            //  AppStorageView()
+            IntroView()
         }
     }
 }

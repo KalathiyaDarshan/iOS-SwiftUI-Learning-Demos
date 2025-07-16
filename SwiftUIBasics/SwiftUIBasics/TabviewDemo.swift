@@ -98,19 +98,6 @@ private struct  BrowseView: View {
     }
 }
 
-private struct ProfileView: View {
-    var body: some View {
-        ZStack {
-            Color.orange
-                .edgesIgnoringSafeArea(.top)
-            
-            Text("PROFILE TAB")
-                .font(.largeTitle)
-                .foregroundColor(.white)
-        }
-    }
-}
-
 struct TabviewDemo_Previews: PreviewProvider {
     static var previews: some View {
         TabviewDemo()
