@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WeatherApp_Seanallen.swift
 //  WeatherApp-SwiftUI
 //
 //  Created by Darshan Kalathiya on 07/02/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeatherApp_Seanallen: View {
     
     @State private var isNight = false
     
@@ -38,12 +38,6 @@ struct ContentView: View {
                 
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
 
@@ -129,5 +123,11 @@ struct WeatherButton: View {
             .foregroundColor(textColor)
             .font(.system(size: 20, weight: .bold,design: .default))
             .cornerRadius(10)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        WeatherApp_Seanallen()
     }
 }
